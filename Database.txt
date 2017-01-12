@@ -1,0 +1,202 @@
+/*
+This is going to be our brainstorming document to construct our tables.
+Susan Hughes will be contributing a lot of work into the .sql file to create these tables
+*/
+
+/*
+We need the following fields
+
+General Information
+[TextFields]
+First Name
+Last Name
+City
+State[DropDownMenu]
+Zip
+Email Address
+Occupation
+
+What is my availability?
+[Checkboxes]
+Availability
+  [Options]
+  -Daytime
+  -Evenings
+  -Weekdays
+  -Weekends
+Start Date
+  [Use Calender]
+Additional Considerations
+  [Options]
+  -Volunteer during worship service
+  -Volunteer when childcare available
+  -Volunteer at a community site
+  -Volunteer with peers
+  -Volunteer with family
+ 
+ How do I prefer to have an impact?
+ [Checkboxes]
+ I prefer to work with
+  [Options]
+  -Activities
+  -Planning
+  -People
+ I prefer to work with
+  [options]
+  -infants/preschoolers
+  -children (k-12)
+  -adults
+  -single parents
+  -seniors
+  
+What issues do I have a heart for?
+[Checkboxes]
+[Options]
+  -Addiction            -Education            -Hospice                -Parenting              -Spritual Growth
+  -Aging Seniors        -Employment           -Hunger                 -Pastoral Care          -Support Groups
+  -At Risk Youth        -Environment          -Immigration            -People w/ disabilities -District work
+  -Church Building      -GLBTQ Equality       -Life-long Learning     -Poverty                -Victims of Abuse
+  -Church Leadership    -Global Issues        -Membership             -Public Health          -Worship Service
+  -Community Outreach   -Grief/Loss Support   -Memorial Services      -public policy
+  -Cultural Support     -Healthcare           -Mental/Emotional Health-Racial Justice
+  -Criminal Justice     -Homelessness         -Music                  -Sanctuary
+ 
+State your motivation for volunteering
+[textfield]
+ 
+Skills&Interests
+[2 Radio Buttons, can be null]
+
+Building & Maintenance
+ -Carpentry
+ -Electrical
+ -Framing/Drywall
+ -Heating & Air Systems
+ -Layout & Design
+ -Painting
+ -Plumbing
+
+Career
+ -Counseling/Mentoring
+ -Interviewing
+ -Networking
+ 
+Caregiving
+  -Childcare
+  -Home visits
+  -Transportation
+  -Meal delivery
+
+Computer 
+  -Software applications
+  -Data Entry
+  -Web Development
+  
+Communication
+  -Audio
+  -Creative Writing
+  -Documenting/Editing
+  -Sign Language
+  -Storytelling
+  -Foreign Languages
+  
+Creative Arts
+  -Drawing/Painting
+  -Crafts
+  -Photography
+  -Sewing
+  
+Dramatic Arts
+  -Acting
+  -Costumes/Set Design
+  -Dance
+  -Instrumental Music
+  -Vocal Music
+  -Script Writing
+  
+Education
+  -Instructional Design
+  -Teaching/Training
+  -Tutoring
+  
+Event Management
+  -Planning
+  -Hospitality
+  -Host/MC
+  -Food prep
+  -Setup/Cleanup
+  
+Financial Skills
+  -Budgeting
+  -Tax Prep
+  -Investment Analysis
+  
+Healthcare
+  -Medical 
+  -Mental Health
+  -Complementary
+  -Elder Care
+  
+Management
+  -Assessment
+  -Fundraising
+  -Project Management
+  -Public Relations
+  -Research
+  -Strategic Planning
+  -Survey Design
+  
+ Outdoor Skills
+  -Camping
+  -Gardening
+  -Landscaping
+  
+Other Professional Skills
+  -Legal
+  -Librarian
+  -Property Management
+  
+Social Skills
+  -Conflict Mediation
+  -Group Facilitation
+  -Mentoring
+  -Motivation/Feedback
+ 
+Current Volunteer Activity
+[Checkboxes]
+-Board Leadership
+-Committee Involvment
+-Music
+-Religious Education
+-Welcoming Team
+-Program Leadership
+-Worship Associate
+-Small group facilitation
+-Special Assignment
+-Pastoral Care Team
+-AUW
+-Daytime Connections
+
+Currently Volunteering at these Partners
+[Checkboxes]
+-Habitat for Humanity
+-Beacon Housing
+-Emerge
+-Augsburg Fairview Academy
+-MN Interfaith 
+-SURJ
+-Simpson Homeless Shelter
+-Project Pride for Living
+[Textfield]
+Other
+
+Currently Volunteering Outside of the Church
+[Textfield]
+[Textfield]
+[Textfield]
+[Textfield]
+
+Other comments
+[Textfield]
+ 
+*/
