@@ -196,6 +196,15 @@ Currently Volunteering Outside of the Church
 [Textfield]
 [Textfield]
 
+Rate This Form
+[Radio Buttons]
+Was this form easy to navigate?
+1-5
+Were there any questions or options missing?
+Yes / No , If Yes [Textfield]
+Do you prefer this form or the paper form?
+Online / Paper
+
 Other comments
 [Textfield]
  
