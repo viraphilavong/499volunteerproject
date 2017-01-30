@@ -7,6 +7,262 @@
  */
 require_once("header.php");
 //require_once("sessions.php"); if we use multi page forms
+$firstName = @$_POST["firstName"];
+$lastName = @$_POST["lastName"];
+$city = @$_POST["city"];
+$state = @$_POST["state"];
+$zipCode = @$_POST["zipCode"];
+$emailAddress = @$_POST["emailAddress"];
+$occupation = @$_POST["occupation"];
+$daytime = @$_POST["daytime"];
+$evening = @$_POST["evening"];
+$weekday = @$_POST["weekday"];
+$weekend = @$_POST["weekend"];
+$startDate = @$_POST["startDate"];
+$worship = @$_POST["worship"];
+$childcare = @$_POST["childcare"];
+$communitysite = @$_POST["communitysite"];
+$peers = @$_POST["peers"];
+$family = @$_POST["family"];
+$activities = @$_POST["activities"];
+$planning = @$_POST["planning"];
+$people = @$_POST["people"];
+$infants = @$_POST["infants"];
+$children = @$_POST["children"];
+$adults = @$_POST["adults"];
+$singleparents = @$_POST["singleparents"];
+$seniors = @$_POST["seniors"];
+$addiction = @$_POST["addiction"];
+$education = @$_POST["education"];
+$hospice = @$_POST["hospice"];
+$parenting = @$_POST["parenting"];
+$spiritualgrowth = @$_POST["spiritualgrowth"];
+$agingseniors = @$_POST["agingseniors"];
+$employment = @$_POST["employment"];
+$hunger = @$_POST["hunger"];
+$pastoralcare = @$_POST["pastoralcare"];
+$supportgroups = @$_POST["supportgroups"];
+$atriskyouth = @$_POST["atriskyouth"];
+$environment = @$_POST["environment"];
+$immigration = @$_POST["immigration"];
+$disabledpeople = @$_POST["disabledpeople"];
+$districtwork = @$_POST["districtwork"];
+$churchbuilding = @$_POST["churchbuilding"];
+$glbtqequality = @$_POST["glbtqequality"];
+$lifelonglearning = @$_POST["lifelonglearning"];
+$poverty = @$_POST["poverty"];
+$victimsofabuse = @$_POST["victimsofabuse"];
+$churchleadership = @$_POST["churchleadership"];
+$globalissues = @$_POST["globalissues"];
+$membership = @$_POST["membership"];
+$publichealth = @$_POST["publichealth"];
+$worshipservice = @$_POST["worshipservice"];
+$communityoutreach = @$_POST["communityoutreach"];
+$griefsupport = @$_POST["griefsupport"];
+$memorialservices = @$_POST["memorialservices"];
+$publicpolicy = @$_POST["publicpolicy"];
+$culturalsupport = @$_POST["culturalsupport"];
+$healthcare = @$_POST["healthcare"];
+$mentalhealth = @$_POST["mentalhealth"];
+$racialjustice = @$_POST["racialjustice"];
+$criminaljustice = @$_POST["criminaljustice"];
+$homelessness = @$_POST["homelessness"];
+$music = @$_POST["music"];
+$sanctuary = @$_POST["sanctuary"];
+$motivation = @$_POST["motivation"];
+$carpentry = @$_POST["carpentry"];
+$counseling = @$_POST["counseling"];
+$childcare = @$_POST["childcare"];
+$softwareapps = @$_POST["softwareapps"];
+$audio = @$_POST["audio"];
+$electrical = @$_POST["electrical"];
+$interviewing = @$_POST["interviewing"];
+$homevisits = @$_POST["homevisits"];
+$dataentry = @$_POST["dataentry"];
+$creativewriting = @$_POST["creativewriting"];
+$framingdrywall = @$_POST["framingdrywall"];
+$networking = @$_POST["networking"];
+$transportation = @$_POST["transportation"];
+$webdevelopment = @$_POST["webdevelopment"];
+$documenting = @$_POST["documenting"];
+$heatingair = @$_POST["heatingair"];
+$mealdelivery = @$_POST["mealdelivery"];
+$signlanguage = @$_POST["signlanguage"];
+$layoutdesign = @$_POST["layoutdesign"];
+$storytelling = @$_POST["storytelling"];
+$painting = @$_POST["painting"];
+$foreignlanguage = @$_POST["foreignlanguage"];
+$plumbing = @$_POST["plumbing"];
+$drawingpainting = @$_POST["drawingpainting"];
+$acting = @$_POST["acting"];
+$instructionaldesign = @$_POST["instructionaldesign"];
+$planning = @$_POST["planning"];
+$budgeting = @$_POST["budgeting"];
+$crafts = @$_POST["crafts"];
+$costumes = @$_POST["costumes"];
+$teaching = @$_POST["teaching"];
+$hospitality = @$_POST["hospitality"];
+$taxprep = @$_POST["taxprep"];
+$photography = @$_POST["photography"];
+$dance = @$_POST["dance"];
+$tutoring = @$_POST["tutoring"];
+$hostmc = @$_POST["hostmc"];
+$investmentanalysis = @$_POST["investmentanalysis"];
+$sewing = @$_POST["sewing"];
+$instrumentalmusic = @$_POST["instrumentalmusic"];
+$foodprep = @$_POST["foodprep"];
+$vocalmusic = @$_POST["vocalmusic"];
+$setupcleanup = @$_POST["setupcleanup"];
+$scriptwriting = @$_POST["scriptwriting"];
+$medical = @$_POST["medical"];
+$assessment = @$_POST["assessment"];
+$camping = @$_POST["camping"];
+$legal = @$_POST["legal"];
+$conflictmediation = @$_POST["conflictmediation"];
+$mentalhealth = @$_POST["mentalhealth"];
+$fundraising = @$_POST["fundraising"];
+$gardening = @$_POST["gardening"];
+$librarian = @$_POST["librarian"];
+$groupfacilitation = @$_POST["groupfacilitation"];
+$complementary = @$_POST["complementary"];
+$projectmanagement = @$_POST["projectmanagement"];
+$landscaping = @$_POST["landscaping"];
+$propertymanagement = @$_POST["propertymanagement"];
+$mentoring = @$_POST["mentoring"];
+$eldercare = @$_POST["eldercare"];
+$publicrelations = @$_POST["publicrelations"];
+$motivationfeedback = @$_POST["motivationfeedback"];
+$research = @$_POST["research"];
+$strategicplanning = @$_POST["strategicplanning"];
+$surveydesign = @$_POST["surveydesign"];
+$boardleadership = @$_POST["boardleadership"];
+$committeeinvolvement = @$_POST["committeeinvolvement"];
+$religouseducation = @$_POST["religouseducation"];
+$welcomingteam = @$_POST["welcomingteam"];
+$programleadership = @$_POST["programleadership"];
+$worshipassociate = @$_POST["worshipassociate"];
+$smallgroupfacilitation = @$_POST["smallgroupfacilitation"];
+$specialassignment = @$_POST["specialassignment"];
+$pastoralcareteam = @$_POST["pastoralcareteam"];
+$auw = @$_POST["auw"];
+$daytimeconnections = @$_POST["daytimeconnections"];
+$habitatforhumanity = @$_POST["habitatforhumanity"];
+$beaconhousing = @$_POST["beaconhousing"];
+$emerge = @$_POST["emerge"];
+$augsburgfairviewacademy = @$_POST["augsburgfairviewacademy"];
+$mninterfaith = @$_POST["mninterfaith"];
+$surj = @$_POST["surj"];
+$simpsonhomelessshelther = @$_POST["simpsonhomelessshelther"];
+$projectprideforliving = @$_POST["projectprideforliving"];
+$other = @$_POST["other"];
+$volun1 = @$_POST["volun1"];
+$volun2 = @$_POST["volun2"];
+$volun3 = @$_POST["volun3"];
+$volun4 = @$_POST["volun4"];
+$rateform = @$_POST["rateform"];
+$qom = @$_POST["qom"];
+$missinginfo = @$_POST["missinginfo"];
+$formpreference = @$_POST["formpreference"];
+$othercomments = @$_POST["othercomments"];
+
+$msg1 = "General Information\n" . $firstName . " " . $lastName . "\n" .
+    $city . " " . $state . " " . $zipCode . "\n" .  $emailAddress .
+    " " . $occupation . "\n\n";
+$msg2 = "Availability" . "\n" . $daytime . "\n" . $evening . "\n" .
+    $weekday . "\n" . $weekend . "\nStart Date: " . $startDate . "\n" .
+    "Additional Considerations\n" . "Volunteer during/with the following\n" .
+    $worship . " " . $childcare . " " . $communitysite . " " . $peers . " " .
+    $family . "\n\n" ;
+$msg3 = "Preferred Impact\n" . $activities . " " . $planning . " " . $people .
+    "Prefer to work with\n" . $infants . " " . $children . " " . $adults . " " .
+    $singleparents . " " . $seniors . "\n\n";
+$msg4 = "Issues of Interest\n" . $addiction . " " . $education . " " . $hospice .
+    " " . $parenting . " " . $spiritualgrowth . "\n" . $agingseniors . " " .
+    $employment . " " . $hunger . " " . $pastoralcare . " " . $supportgroups . "\n" .
+    $atriskyouth . " " . $environment . " " . $immigration . " " . $disabledpeople .
+    " " . $districtwork . "\n" . $churchbuilding . " " . $glbtqequality . " " .
+    $lifelonglearning . " " . $poverty . " " . $victimsofabuse . "\n" . $churchleadership
+    . " " . $globalissues . " " . $membership . " " . $publichealth . " " . $worshipservice
+    . "\n" . $communityoutreach . " " . $griefsupport . " " . $memorialservices . " " . $publicpolicy
+    . "\n" . $culturalsupport . " " . $healthcare . " " . $mentalhealth . " " . $racialjustice .
+    "\n" . $criminaljustice . " " . $homelessness . " " . $music . " " . $sanctuary . "\n" ;
+$msg5 = "\nMotivation\n" . $motivation ;
+$msg6 = "\n\nSkills & Interests\nCarpentry " . $carpentry .
+        "\nCounseling " . $counseling .
+        "\nChildcare " . $childcare .
+        "\nSoftware Applications " . $softwareapps .
+        "\nAudio " . $audio .
+        "\nElectrical " . $electrical .
+        "\nInterviewing " . $interviewing .
+        "\nHome Visits " . $homevisits .
+        "\nData Entry " . $dataentry .
+        "\nCreative Writing " . $creativewriting .
+        "\nFraming Dry Wall " . $framingdrywall .
+        "\nNetworking " . $networking .
+        "\nTransportation " . $transportation .
+        "\nWeb Development " . $webdevelopment .
+        "\nDocumenting " . $documenting .
+        "\nHeating Air " . $heatingair .
+        "\nMeal Delivery " . $mealdelivery .
+        "\nSign Language " . $signlanguage .
+        "\nLayout Design " . $layoutdesign .
+        "\nStory Telling " . $storytelling .
+        "\nPainting " . $painting .
+        "\nForeign Language " . $foreignlanguage .
+        "\nPlubmbing " . $plumbing .
+        "\nDrawing / Painting " . $drawingpainting .
+        "\nActing " . $acting .
+        "\nInstructional Design " . $instructionaldesign .
+        "\nPlanning " . $planning .
+        "\nBudgeting " . $budgeting .
+        "\nCrafts " . $crafts .
+        "\nCostumes " . $costumes .
+        "\nTeaching " . $teaching .
+        "\nHospitality " . $hospitality .
+        "\nTax Prep " . $taxprep .
+        "\nPhotography " . $photography .
+        "\nDance " . $dance .
+        "\nTutoring " . $tutoring .
+        "\nHost/MC " . $hostmc .
+        "\nInvestment Analysis " . $investmentanalysis .
+        "\nSewing " . $sewing .
+        "\nInstrumental Music " . $instrumentalmusic .
+        "\nFood Prep " . $foodprep .
+        "\nVocal Music " . $vocalmusic .
+        "\nSetup/Cleanup " . $setupcleanup .
+        "\nScript Writing " . $scriptwriting .
+        "\nMedical " . $medical .
+        "\nAssessment " . $assessment .
+        "\nCamping " . $camping .
+        "\nLegal " . $legal .
+        "\nConflict Mediation " . $conflictmediation .
+        "\nMental Health " . $mentalhealth .
+        "\nFundraising " . $fundraising .
+        "\nGardening " . $gardening .
+        "\nLibrarian " . $librarian .
+        "\nGroup Facilitation " . $groupfacilitation .
+        "\nComplementary" . $complementary .
+        "\nProject Management " . $projectmanagement .
+        "\nLandscaping " . $landscaping .
+        "\nProperty Management " . $propertymanagement .
+        "\nMentoring " . $mentoring .
+        "\nElder Care " . $eldercare .
+        "\nPublic Relations " . $publicrelations .
+        "\nMotivation Feedback " . $motivationfeedback .
+        "\nResearch " . $research .
+        "\nStrategic Planning " . $strategicplanning .
+        "\nSurvey Design " . $surveydesign;
+$msg7 = "\n\nCurrent Volunteer Work\n" . $boardleadership . " " . $committeeinvolvement
+    . " " . $music . " " . $religouseducation . " " . $welcomingteam . " " . $programleadership
+    . " " . $worshipassociate . " " . $smallgroupfacilitation . " " . $specialassignment
+    . " " . $pastoralcareteam . " " . $auw . " " . $daytimeconnections . "\nVolunteering at these partners\n"
+    . $habitatforhumanity . "\n" . $beaconhousing . "\n" . $emerge . "\n"
+    . $augsburgfairviewacademy . "\n" . $mninterfaith . "\n" . $surj . "\n" . $simpsonhomelessshelther
+    . "\n" . $projectprideforliving . "\n" . $other . "\nVolunteering Outside of Church\n" .
+    $volun1 . "\n" . $volun2 . "\n" . $volun3 . "\n" . $volun4 . "\n\n";
+$msg8 = "Rate this Form " . $rateform . "\nMissing Questions\n" . $qom .
+        "\n" . $missinginfo . "\nPreferred Registry\n" . $formpreference;
+$msg9 = "\nOther Comments\n" . $othercomments;
 ?>
 <!doctype html>
 <html lang="en">
@@ -22,6 +278,7 @@ require_once("header.php");
         <p>Please fill in your information in order to volunteer and click
             <strong>Next</strong> when all information is entered.
         </p>
+        <form action="" method="post">
         <ul>
             <li>
                 <label for="firstName">First Name</label>
@@ -95,6 +352,7 @@ require_once("header.php");
         <p>
             <label>Start Date</label>
             <?php //insert calender ?>
+            <input type="text" id="startDate" value="startDate" />
         </p>
         <p>
             <label>Additional Considerations</label><br>
@@ -819,9 +1077,9 @@ require_once("header.php");
             <br>
             <label>Currently Volunteering Outside of The Church</label><br>
             <input type="text" name="volun1" id="volun1" value="" /><br>
-            <input type="text" name="volun1" id="volun1" value="" /><br>
-            <input type="text" name="volun1" id="volun1" value="" /><br>
-            <input type="text" name="volun1" id="volun1" value="" /><br>
+            <input type="text" name="volun2" id="volun2" value="" /><br>
+            <input type="text" name="volun3" id="volun3" value="" /><br>
+            <input type="text" name="volun4" id="volun4" value="" /><br>
         </p>
         
         <p>
@@ -868,7 +1126,19 @@ require_once("header.php");
             <input type="text" name="othercomments" value="">
         </p>
 
-        <?php   //<div align="right"><a href="Availability.php">Next</a></div>
+        <p>
+            <input type="submit" value="Submit" />
+            <input type="hidden" name="button_pressed" value="1"/>
+        </p>
+        </form>
+        <?php
+        if(isset($_POST['button_pressed'])) {
+            $to = 'church@email.com';
+            $subject = 'Volunteer Registration Form';
+            $message = $msg1 . "\n" . $msg2 . "\n" . $msg3 . "\n" . $msg4 . "\n" . $msg5 . "\n" .
+                $msg7 . "\n" . $msg8 . "\n" . $msg9;
+            $mail($to, $subject,$message);
+        }
         ?>
     </fieldset>
 <?php require_once("footer.php"); ?>
