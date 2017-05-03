@@ -1,5 +1,5 @@
 # 499volunteerproject
-Church Volunteer Registration
+Church Volunteer Registration Form
 
 This final iteration does not use the second branch "database." We use Google forms to create our form. It offers a visual interpretation which the church had lacked before.
 
