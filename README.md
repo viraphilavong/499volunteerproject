@@ -10,5 +10,5 @@ The output of the form is the following.
 3. Spreadsheet that gets updated after every submission
 4. An email containing all fields filled in the form.
 
-Credits
+Credits:
 Alexander Philavong + Martin Austin + Mike Davis + Susan Hughes
